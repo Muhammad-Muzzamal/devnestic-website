@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/services-detail', function () {
     return view('pages/services-detail');
 })->name('services-detail');
+Route::get("/term-and-conditions", function () {
+    return view('pages.term_condition');
+});
